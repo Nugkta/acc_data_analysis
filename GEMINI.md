@@ -1,0 +1,1 @@
+/Users/stan/Documents/UOM/myn_project/.github/copilot-instructions.md

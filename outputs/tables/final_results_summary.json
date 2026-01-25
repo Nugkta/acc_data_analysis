@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2026-01-21",
+  "staging_approach": "Separate T, N, M components",
+  "data": {
+    "training_n": 992,
+    "validation_n": 490
+  },
+  "os_model": {
+    "variables": [
+      "M",
+      "T",
+      "age",
+      "chemotherapy",
+      "N",
+      "grade",
+      "radiotherapy"
+    ],
+    "training_c_index": 0.7724916743871598,
+    "validation_c_index": 0.728672015719666
+  },
+  "css_model": {
+    "variables": [
+      "T",
+      "M",
+      "grade",
+      "chemotherapy",
+      "age",
+      "tumor_number"
+    ],
+    "training_c_index": 0.7818883855623463,
+    "validation_c_index": 0.7469327754848194
+  },
+  "external_validation": {
+    "hospital_cohort": {
+      "n_total": 177,
+      "n_os": 145,
+      "os_events": 46,
+      "css_events": 14
+    },
+    "os_model": {
+      "seer_c_index": 0.728672015719666,
+      "hospital_c_index": 0.6264895487399883,
+      "c_index_drop": 0.1021824669796777
+    },
+    "css_model": {
+      "seer_c_index": 0.7469327754848194,
+      "hospital_c_index": 0.6353383458646616,
+      "c_index_drop": 0.11159442962015775
+    }
+  }
+}
