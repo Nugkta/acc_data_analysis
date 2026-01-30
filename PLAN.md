@@ -248,6 +248,10 @@ Alive patients (δ=0): OS = followup_date - surgery_date
 
 These limitations explain the ~10% C-index drop from SEER to hospital validation but are inherent to the external dataset.
 
+## 9.4) Repository Configuration Updates
+
+- `.claude/` directory, `PLAN.md`, `claude.md`, and `gemini.md` added to `.gitignore` for better repository management.
+
 ## 10) Comment: treating Unknown/NA in predictors
 
 - Categorical “Unknown/NA” values are kept as explicit factor levels (e.g., `grade=Unknown`, `TNMstage=NA`) so they can be scored in the nomogram.

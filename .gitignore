@@ -24,6 +24,12 @@ venv/
 # OS
 .DS_Store
 
+# AI tool configurations
+.claude/
+PLAN.md
+claude.md
+gemini.md
+
 # Models (large files)
 *.pkl
 outputs/models/
