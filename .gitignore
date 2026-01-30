@@ -29,6 +29,7 @@ venv/
 PLAN.md
 claude.md
 gemini.md
+.github/
 
 # Models (large files)
 *.pkl
